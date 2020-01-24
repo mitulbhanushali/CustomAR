@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AR MaP</string>
+    <string name="point_types">Select Type Of Node </string>
+    <string name="SHARED_PREF_NAME">AnchorsDB</string>
+    <string name="DBname">ARMap</string>
+    <string name="source"> Start point </string>
+    <string name="destination"> Destination point </string>
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SearchLocation">
+
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/searchFrag"
+        android:name="com.example.armap.Helper.CustomFragmentConfig"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom|end">
+        <!--        <Spinner-->
+        <!--            android:id="@+id/startnode"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:prompt="@string/source"/>-->
+
+        <!--        <Spinner-->
+        <!--            android:id="@+id/endnode"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:prompt="@string/destination"/>-->
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_margin="16dp"
+            android:src="@drawable/nav_arrow"
+            app:fabSize="normal"
+            android:id="@+id/btnsearch"
+            android:background="@color/black"
+            />
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Start Navigation"-->
+<!--            android:id="@+id/btnsearch"/>-->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:id="@+id/ImgDirection"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="top|center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtStart"
+            android:textSize="24dp"
+            android:text="Total Distance Traveled : 0 meters"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"/>
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&ndash;&gt;"-->
+<!--            android:textSize="20dp"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:textColor="@color/colorAccent"-->
+<!--           />-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/txtEnd"-->
+<!--            android:textSize="24dp"-->
+<!--            android:text=""-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:textColor="@color/colorAccent"/>-->
+    </LinearLayout>
+
+</FrameLayout>

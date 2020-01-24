@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "991643319022",
+    "firebase_url": "https://testing-ar-city-of-kitchener.firebaseio.com",
+    "project_id": "testing-ar-city-of-kitchener",
+    "storage_bucket": "testing-ar-city-of-kitchener.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991643319022:android:6ae2767748e146b2e6d1ff",
+        "android_client_info": {
+          "package_name": "com.example.armap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "991643319022-pao1pchdu9e0rjm24fvm376cpqnj41v5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATC8ZTNChyULgzSvbRwo1XWmSpJNXPTWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "991643319022-pao1pchdu9e0rjm24fvm376cpqnj41v5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
